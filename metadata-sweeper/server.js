@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';

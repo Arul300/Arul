@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 const fileInput = document.querySelector('#file');
 const dropzone = document.querySelector('#dropzone');
 const cleanButton = document.querySelector('#clean');

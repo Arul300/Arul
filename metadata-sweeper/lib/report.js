@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 const AI_PATTERN = /(ai|artificial intelligence|generative|stable diffusion|midjourney|dall[·-]?e|firefly|content credentials|c2pa|provenance|openai)/i;
 
 export function flattenMetadata(value, prefix = '', output = []) {

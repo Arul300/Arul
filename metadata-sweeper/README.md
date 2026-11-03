@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Metadata Sweeper
 
 A polished **local-first** web app for removing standard embedded metadata from supported images, PDFs, Office documents, and videos. It reports readable metadata before and after cleaning, highlights likely AI-related metadata markers, and gives the user a cleaned-file download.

@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 export const FORMATS = {
   image: ['jpg', 'jpeg', 'png', 'webp', 'tif', 'tiff', 'gif', 'heic'],
   pdf: ['pdf'],
