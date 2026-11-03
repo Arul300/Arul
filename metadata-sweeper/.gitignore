@@ -1,0 +1,9 @@
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
+node_modules/
+uploads/
+output/
+.DS_Store
+*.log
+coverage/

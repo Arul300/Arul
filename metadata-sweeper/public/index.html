@@ -1,0 +1,20 @@
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Metadata Sweeper — local-first cleaner</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+  <main class="shell">
+    <nav><a class="brand" href="/">Metadata<span>Sweeper</span></a><span class="pill">Local-first</span></nav>
+    <section class="hero"><p class="eyebrow">PRIVATE FILE HYGIENE</p><h1>Share the file.<br><em>Not its history.</em></h1><p class="lead">Clean standard embedded metadata from images, PDFs, Office files, and videos on your own computer. No cloud storage, no account.</p></section>
+    <section class="cleaner" aria-labelledby="clean-title">
+      <div class="cleaner-top"><div><p class="eyebrow">01 / SELECT A FILE</p><h2 id="clean-title">Clean metadata safely</h2></div><span class="status"><i></i> Ready locally</span></div>
+      <label class="dropzone" id="dropzone" for="file"><input id="file" type="file" accept=".jpg,.jpeg,.png,.webp,.tif,.tiff,.gif,.heic,.pdf,.docx,.xlsx,.pptx,.odt,.ods,.odp,.mp4,.mov,.m4v,.webm,.mkv,.avi"><span class="upload-mark">↥</span><strong id="file-label">Drop a file here or browse</strong><small>Images · PDFs · Office files · Videos — up to 500 MB</small></label>
+      <div class="actions"><button id="clean" disabled>Clean & download <span>→</span></button><p id="message" role="status">Your file stays on this computer and is deleted after processing.</p></div>
+    </section>
+    <section class="report hidden" id="report" aria-live="polite"><div class="report-head"><div><p class="eyebrow">02 / REPORT</p><h2>Metadata snapshot</h2></div><button class="text-button" id="reset">Clean another file</button></div><div class="metrics"><article><b id="removed">—</b><span>Fields removed</span></article><article><b id="ai-found">—</b><span>AI-related fields found</span></article><article><b id="remaining">—</b><span>Fields remaining</span></article></div><div class="report-grid"><div><h3>Before</h3><ul id="before"></ul></div><div><h3>After</h3><ul id="after"></ul></div></div><div class="notice"><strong>Important limitation</strong><p id="notes"></p></div></section>
+    <section class="facts"><article><span>01</span><h3>Local processing</h3><p>Files are sent only to the local server running on your computer and removed after the download begins.</p></article><article><span>02</span><h3>Content preserved</h3><p>Metadata is targeted while media streams and document content are kept whenever the installed tools support it.</p></article><article><span>03</span><h3>Honest limits</h3><p>This cannot prove a file's origin, erase visual watermarks, or make AI-generated media undetectable.</p></article></section>
+    <footer>Metadata Sweeper <span>•</span> A practical local-first utility</footer>
+  </main><script src="/app.js"></script>
+</body></html>
